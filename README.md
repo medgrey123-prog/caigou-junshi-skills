@@ -1,8 +1,24 @@
 # 菜狗军师 Skills：询问式内容、IP、AI 与增长决策系统
 
-> 基于菜狗军师抖音账号 **68 条作品**（67 个视频 + 1 篇长文）提取的认知框架、操作方法与表达结构。
+> 基于菜狗军师抖音账号 **94 条作品**（92 个视频 + 2 篇长文，2026-08 至 09 全量）提取的认知框架、操作方法与表达结构。
 >
 > 这不是一句提示词，也不是模仿某个人的口头禅；它是一套让 AI **先理解问题、再解释概念、经确认后给方法、按需要才写内容** 的对话式系统。
+
+## 一键安装（推荐）
+
+把 4 个 Skill 一键装进你的 AI Agent（Hermes / Codex / Claude 等）：
+
+```bash
+curl -sL https://raw.githubusercontent.com/medgrey123-prog/caigou-junshi-skills/main/install.sh | bash
+```
+
+指定安装目录：
+
+```bash
+bash install.sh --dir ~/.hermes/skills/cangjie
+```
+
+脚本会自动探测常见 Agent 的 skills 目录，下载本仓库并把 4 个 Skill 放到位。装好后新开一个会话即可调用。
 
 ## 你会得到什么
 
